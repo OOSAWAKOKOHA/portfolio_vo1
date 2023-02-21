@@ -29,27 +29,37 @@ main {
   margin: auto;
 }
 main h2 {
-  margin-top: 100px;
   font-size: 1rem;
+  margin-top: 100px;
 }
-main p {
+main .profile p {
   font-size: 1.8rem;
   padding-top: 20px;
 }
-main p:nth-child(3) {
+main .profile p:nth-child(2) {
   font-size: 1.2rem;
 }
-main .warkWrap {
+main .workWrap {
   display: flex;
+  align-items: center;
+  gap: 50px;
 }
-main .warkWrap .work {
-  border: solid 4px #333;
+main .workWrap .work {
+  width: 700px;
+  height: 500px;
+  border: solid 3px #333;
+  border-radius: 20px;
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
   padding: 40px;
   margin-top: 30px;
+  background-color: #333;
+  color: #FFF;
 }
-main .warkWrap .work p {
-  font-size: 1.4rem;
+main .workWrap .work ul li {
+  list-style: none;
+}
+main .workWrap .work ul li p {
+  line-height: 20px;
 }
